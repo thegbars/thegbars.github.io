@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebResourcesPaths">
+    <contentEntries>
+      <entry url="file://$PROJECT_DIR$">
+        <entryData>
+          <resourceRoots>
+            <path value="file://$PROJECT_DIR$/portfolio-vite/src/css" />
+            <path value="file://$PROJECT_DIR$/portfolio-vite/src/components" />
+            <path value="file://$PROJECT_DIR$/portfolio-vite/src/assets" />
+            <path value="file://$PROJECT_DIR$/portfolio-vite/src/lib" />
+            <path value="file://$PROJECT_DIR$/portfolio-vite/src/hooks" />
+            <path value="file://$PROJECT_DIR$/portfolio-vite/src/pages" />
+          </resourceRoots>
+        </entryData>
+      </entry>
+    </contentEntries>
+  </component>
+</project>
