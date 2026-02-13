@@ -3,7 +3,7 @@ import '@/index.css'
 import Home from '@/pages/Home.tsx'
 
 import { BrowserRouter, Routes, Route } from "react-router";
-import Navbar from '@/components/Navbar'
+import GreysonNavbar from '@/components/GreysonNavbar.tsx'
 import Footer from '@/components/Footer'
 import Projects from '@/pages/Projects'
 import Resume from '@/pages/Resume'
@@ -13,7 +13,7 @@ import Contact from '@/pages/Contact'
 createRoot(document.getElementById('root')!).render(
     <div>
         <BrowserRouter>
-            <Navbar />
+            <GreysonNavbar />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />
