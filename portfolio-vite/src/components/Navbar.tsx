@@ -1,4 +1,3 @@
-import {Button} from '@/components/ui/button.tsx'
 import { Link } from "react-router";
 
 
@@ -9,40 +8,30 @@ export default function Navbar() {
                 {/*NAME*/}
                 <div className='flex'>
                     <Link to='/'>
-                        <Button variant='ghost'>
-                            <h1 className='text-4xl text-purple-700 hover:text-purple-500 transition-colors'>Greyson Barsotti</h1>
-                        </Button>
+                        <h1 className='text-4xl text-purple-700 hover:text-purple-500 transition-colors'>Greyson Barsotti</h1>
                     </Link>
                 </div>
 
                 {/*PAGES*/}
-                <div className='flex gap-1'>
+                <div className='flex gap-6'>
                     {/* Projects */}
                     <Link to='/projects'>
-                        <Button variant='ghost'>
-                            <p className='text-xl text-gray-700 hover:text-black transition-colors'>Projects</p>
-                        </Button>
+                        <p className='text-xl text-gray-700 hover:text-black transition-colors'>Projects</p>
                     </Link>
 
                     {/* About Me */}
                     <Link to='/about'>
-                        <Button variant='ghost'>
-                            <p className='text-xl text-gray-700 hover:text-black transition-colors'>About Me</p>
-                        </Button>
+                        <p className='text-xl text-gray-700 hover:text-black transition-colors'>About Me</p>
                     </Link>
 
                     {/* Contact */}
                     <Link to='/contact'>
-                        <Button variant='ghost'>
-                            <p className='text-xl text-gray-700 hover:text-black transition-colors'>Contact</p>
-                        </Button>
+                        <p className='text-xl text-gray-700 hover:text-black transition-colors'>Contact</p>
                     </Link>
 
                     {/* Resume */}
                     <Link to='/resume'>
-                        <Button variant='ghost'>
-                            <p className='text-xl text-gray-700 hover:text-black transition-colors'>Resume</p>
-                        </Button>
+                        <p className='text-xl text-gray-700 hover:text-black transition-colors'>Resume</p>
                     </Link>
                 </div>
             </div>

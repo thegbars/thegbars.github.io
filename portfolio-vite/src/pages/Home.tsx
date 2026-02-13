@@ -58,7 +58,7 @@ export default function Home() {
             </a>
 
             <Link to="/projects">
-                <p className="bg-purple-700 hover:bg-purple-600 transition-colors text-white text-lg py-4">View All Projects</p>
+                <p className="bg-purple-700 hover:bg-purple-500 transition-colors text-white text-lg py-4">View All Projects</p>
             </Link>
         </div>
     </div>
