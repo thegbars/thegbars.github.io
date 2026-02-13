@@ -20,28 +20,28 @@ export default function Navbar() {
                     {/* Projects */}
                     <Link to='/projects'>
                         <Button variant='ghost'>
-                            <p className='text-xl text-gray-800 hover:text-black transition-colors'>Projects</p>
+                            <p className='text-xl text-gray-700 hover:text-black transition-colors'>Projects</p>
                         </Button>
                     </Link>
 
                     {/* About Me */}
                     <Link to='/about'>
                         <Button variant='ghost'>
-                            <p className='text-xl text-gray-800 hover:text-black transition-colors'>About Me</p>
+                            <p className='text-xl text-gray-700 hover:text-black transition-colors'>About Me</p>
                         </Button>
                     </Link>
 
                     {/* Contact */}
                     <Link to='/contact'>
                         <Button variant='ghost'>
-                            <p className='text-xl text-gray-800 hover:text-black transition-colors'>Contact</p>
+                            <p className='text-xl text-gray-700 hover:text-black transition-colors'>Contact</p>
                         </Button>
                     </Link>
 
                     {/* Resume */}
                     <Link to='/resume'>
                         <Button variant='ghost'>
-                            <p className='text-xl text-gray-800 hover:text-black transition-colors'>Resume</p>
+                            <p className='text-xl text-gray-700 hover:text-black transition-colors'>Resume</p>
                         </Button>
                     </Link>
                 </div>
