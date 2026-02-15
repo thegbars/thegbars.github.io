@@ -12,7 +12,7 @@ export default function Home() {
         <Gutters>
             <div className="flex flex-col content-center justify-center text-center py-64 gap-4">
                 <h1 className="text-6xl text-purple-700">Developer. Designer.</h1>
-                <p>Here is a little blurb about what that could even mean and explaining and something else maybe</p>
+                <p className="text-2xl">Here is a little blurb about what that could even mean and explaining and something else maybe</p>
             </div>
         </Gutters>
 
@@ -24,7 +24,7 @@ export default function Home() {
                     <img className="h-100 w-100 object-contain rounded-r-xl shadow-xl" src={ScrapbookImg} alt="" />
                     <div className="w-full flex flex-col justify-center text-center gap-4">
                         <h1 className="text-purple-700 text-4xl">Swissvale Scrapbook</h1>
-                        <p className="text-xl px-4">
+                        <p className="text-xl px-16">
                             A mobile application that takes users around (either physically or virtually) the community of Swissvale.
                             The experience is framed around oral histories about the vacant lots collected from Swissvale residents.
                         </p>
@@ -36,7 +36,7 @@ export default function Home() {
                 <div className="w-full border-y-2 border-black flex hover:bg-purple-50 transition-colors">
                     <div className="w-full flex flex-col justify-center text-center gap-4">
                         <h1 className="text-purple-700 text-4xl">CS Demonstrator</h1>
-                        <p className="text-xl px-4">
+                        <p className="text-xl px-16">
                             An interactive learning assistant for the University of Pittsburgh's Computer Science Department.
                         </p>
                     </div>
@@ -49,7 +49,7 @@ export default function Home() {
                     <img className="h-100 w-100 object-contain rounded-r-xl shadow-xl" src={RustRacerImg} alt="" />
                     <div className="w-full flex flex-col justify-center text-center gap-4">
                         <h1 className="text-purple-700 text-4xl">Rust Racers</h1>
-                        <p className="text-xl px-4">
+                        <p className="text-xl px-16">
                             Rust Racers is a top down, 2D racing game built in Rust. Players can queue up in a lobby to start the race. During the race, players can control their cars and drive around pre-created tracks.
                             Supports up to 4 players and will fill in non-player slots with AI racers.
                         </p>
