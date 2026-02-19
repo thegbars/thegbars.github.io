@@ -22,7 +22,7 @@ const Navbar = ({ navigationData }: { navigationData: NavigationItem }) => {
             <a href='/'>
                 <h1 className="text-purple-700 text-4xl">Greyson Barsotti</h1>
             </a>
-            <div className="md:flex md:gap-4">
+            <div className="md:flex md:gap-6">
                 <a href='/#/projects' className='hover:text-primary max-md:hidden'>
                     Projects
                 </a>
