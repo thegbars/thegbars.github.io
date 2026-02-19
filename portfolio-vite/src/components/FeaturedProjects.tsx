@@ -7,7 +7,7 @@ export default function FeaturedProjects(){
         <div className="flex flex-col justify-center text-center gap-4 mb-8">
             <h1 className="text-6xl text-purple-700 mb-8">Featured Projects</h1>
 
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/thegbars/SwissvaleScrapbook" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/thegbars/SwissvaleScrapbook" target="_blank" rel="noopener noreferrer">
                 <div className="w-full border-y-2 border-black flex hover:bg-purple-50 transition-colors">
                     <img className="h-100 w-100 object-contain rounded-r-xl shadow-xl" src={ScrapbookImg} alt="" />
                     <div className="w-full flex flex-col justify-center text-center gap-4">
@@ -20,7 +20,7 @@ export default function FeaturedProjects(){
                 </div>
             </a>
 
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Demonstrator-for-CS/demonstrator-for-cs" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Demonstrator-for-CS/demonstrator-for-cs" target="_blank" rel="noopener noreferrer">
                 <div className="w-full border-y-2 border-black flex hover:bg-purple-50 transition-colors">
                     <div className="w-full flex flex-col justify-center text-center gap-4">
                         <h1 className="text-purple-700 text-4xl">CS Demonstrator</h1>
@@ -32,7 +32,7 @@ export default function FeaturedProjects(){
                 </div>
             </a>
 
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Six-Seven-Studios/Rust-Racers" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Six-Seven-Studios/Rust-Racers" target="_blank" rel="noopener noreferrer">
                 <div className="w-full border-y-2 border-black flex hover:bg-purple-50 transition-colors">
                     <img className="h-100 w-100 object-contain rounded-r-xl shadow-xl" src={RustRacerImg} alt="" />
                     <div className="w-full flex flex-col justify-center text-center gap-4">
