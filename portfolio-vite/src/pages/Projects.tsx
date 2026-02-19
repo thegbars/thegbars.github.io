@@ -57,9 +57,7 @@ export default function Projects() {
                                 </CardFooter>
                             </Card>
                         </a>
-
-
-
+                        
                     </div>
                 </Gutters>
             </div>
