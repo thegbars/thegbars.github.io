@@ -23,16 +23,16 @@ const Navbar = ({ navigationData }: { navigationData: NavigationItem }) => {
                 <h1 className="text-purple-700 text-4xl">Greyson Barsotti</h1>
             </a>
             <div className="md:flex md:gap-4">
-                <a href='/projects' className='hover:text-primary max-md:hidden'>
+                <a href='/#/projects' className='hover:text-primary max-md:hidden'>
                     Projects
                 </a>
-                <a href='/about' className='hover:text-primary max-md:hidden'>
+                <a href='/#/about' className='hover:text-primary max-md:hidden'>
                     About Me
                 </a>
-                <a href='/contact' className='hover:text-primary max-md:hidden'>
+                <a href='/#/contact' className='hover:text-primary max-md:hidden'>
                     Contact
                 </a>
-                <a href='/resume' className='hover:text-primary max-md:hidden'>
+                <a href='/#/resume' className='hover:text-primary max-md:hidden'>
                     Resume
                 </a>
             </div>
