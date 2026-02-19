@@ -1,4 +1,4 @@
-import { MenuIcon, SearchIcon } from 'lucide-react'
+import { MenuIcon } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'
 import {
@@ -8,8 +8,6 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger
 } from '@/components/ui/dropdown-menu'
-
-import Logo from '@/components/shadcn-studio/logo'
 
 type NavigationItem = {
   title: string
