@@ -1,6 +1,7 @@
 import ScrapbookImg from "@/assets/scrapbookicon.png"
 import RustRacerImg from "@/assets/rustracers.png"
 import CSDemoImg from "@/assets/csdemo.png"
+import { Badge } from "@/components/ui/badge.tsx"
 
 export default function FeaturedProjects(){
     return(
@@ -14,6 +15,15 @@ export default function FeaturedProjects(){
                             A mobile application that takes users around (either physically or virtually) the community of Swissvale.
                             The experience is framed around oral histories about the vacant lots collected from Swissvale residents.
                         </p>
+                        <div className="flex justify-center gap-4">
+                            <Badge variant="purple" className="text-md">Unity</Badge>
+                            <Badge variant="purple" className="text-md">Mapbox</Badge>
+                            <Badge variant="purple" className="text-md">Niantic Spatial</Badge>
+                            <Badge variant="purple" className="text-md">WCAG</Badge>
+                            <Badge variant="purple" className="text-md">Jira</Badge>
+                            <Badge variant="purple" className="text-md">Git</Badge>
+                            <Badge variant="purple" className="text-md">C#</Badge>
+                        </div>
                     </div>
                     <div className="md:order-2 order-1 flex md:justify-end justify-center">
                         <img className="md:h-full md:max-h-[30em] md:w-auto w-full h-auto object-contain md:rounded-l-xl md:shadow-xl max-md:rounded-b-xl" src={ScrapbookImg} alt="" />
@@ -28,6 +38,13 @@ export default function FeaturedProjects(){
                         <p className="text-xl px-16">
                             An interactive learning assistant for the University of Pittsburgh's Computer Science Department.
                         </p>
+                        <div className="flex justify-center gap-4">
+                            <Badge variant="purple" className="text-md">TailwindCSS</Badge>
+                            <Badge variant="purple" className="text-md">Vite</Badge>
+                            <Badge variant="purple" className="text-md">React</Badge>
+                            <Badge variant="purple" className="text-md">Javascript</Badge>
+                            <Badge variant="purple" className="text-md">Git</Badge>
+                        </div>
                     </div>
                     <div className="order-1 flex md:justify-start justify-center">
                         <img className="md:h-full md:max-h-[30em] md:w-auto w-full h-auto object-contain md:rounded-r-xl md:shadow-xl max-md:rounded-b-xl" src={CSDemoImg} alt="" />
@@ -43,6 +60,11 @@ export default function FeaturedProjects(){
                             Rust Racers is a top down, 2D racing game built in Rust. Players can queue up in a lobby to start the race. During the race, players can control their cars and drive around pre-created tracks.
                             Supports up to 4 players and will fill in non-player slots with AI racers.
                         </p>
+                        <div className="flex justify-center gap-4">
+                            <Badge variant="purple" className="text-md">Rust</Badge>
+                            <Badge variant="purple" className="text-md">Bevy</Badge>
+                            <Badge variant="purple" className="text-md">Git</Badge>
+                        </div>
                     </div>
                     <div className="md:order-2 order-1 flex md:justify-end justify-center">
                         <img className="md:h-full md:max-h-[30em] md:w-auto w-full h-auto object-contain md:rounded-l-xl md:shadow-xl max-md:rounded-b-xl" src={RustRacerImg} alt="" />
