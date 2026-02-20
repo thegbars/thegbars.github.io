@@ -1,6 +1,6 @@
 import Gutters from "@/components/Gutters"
 import { Separator } from "@/components/ui/separator"
-import {Button} from "@/components/ui/Button"
+import {Button} from "@/components/ui/button.tsx"
 
 export default function Resume() {
     return (
