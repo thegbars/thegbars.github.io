@@ -15,7 +15,7 @@ export default function FeaturedProjects(){
                             A mobile application that takes users around (either physically or virtually) the community of Swissvale.
                             The experience is framed around oral histories about the vacant lots collected from Swissvale residents.
                         </p>
-                        <div className="flex justify-center gap-4">
+                        <div className="flex flex-wrap justify-center gap-4 mx-8">
                             <Badge variant="purple" className="text-md">Unity</Badge>
                             <Badge variant="purple" className="text-md">Mapbox</Badge>
                             <Badge variant="purple" className="text-md">Niantic Spatial</Badge>
@@ -38,7 +38,7 @@ export default function FeaturedProjects(){
                         <p className="text-xl px-16">
                             An interactive learning assistant for the University of Pittsburgh's Computer Science Department.
                         </p>
-                        <div className="flex justify-center gap-4">
+                        <div className="flex flex-wrap justify-center gap-4 mx-8">
                             <Badge variant="purple" className="text-md">TailwindCSS</Badge>
                             <Badge variant="purple" className="text-md">Vite</Badge>
                             <Badge variant="purple" className="text-md">React</Badge>
@@ -60,7 +60,7 @@ export default function FeaturedProjects(){
                             Rust Racers is a top down, 2D racing game built in Rust. Players can queue up in a lobby to start the race. During the race, players can control their cars and drive around pre-created tracks.
                             Supports up to 4 players and will fill in non-player slots with AI racers.
                         </p>
-                        <div className="flex justify-center gap-4">
+                        <div className="flex flex-wrap justify-center gap-4 mx-8">
                             <Badge variant="purple" className="text-md">Rust</Badge>
                             <Badge variant="purple" className="text-md">Bevy</Badge>
                             <Badge variant="purple" className="text-md">Git</Badge>
