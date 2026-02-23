@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
         <Gutters>
-            <div className="flex flex-col content-center justify-center text-center py-64 gap-4">
+            <div className="flex flex-col content-center justify-center text-center md:py-64 py-32 gap-4">
                 <h1 className="text-6xl text-purple-700">Developer. Designer.</h1>
                 <p className="text-2xl">Full-stack application designer and developer for web, desktop, and mobile</p>
             </div>
