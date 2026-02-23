@@ -41,7 +41,7 @@ export default function Resume() {
                     Software Engineering, Principles of Computer Game Design & Implementation, Intro to
                     Operating Systems, Intro to Computer Graphics, Innovation & Entrepreneurship in IT, Intro to Systems
                     Software, Database Management Systems, Algorithms and Data Structures 1 & 2, Data Communication &
-                    Computer Networks, Intermediate Programming in Python, Intermediate Programming in Java, NarraKve and
+                    Computer Networks, Intermediate Programming in Python, Intermediate Programming in Java, Narrative and
                     Technology, Composing Digital Media.
                 </p>
                 <Separator className="bg-black mt-8" />
