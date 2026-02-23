@@ -7,7 +7,7 @@ export default function FeaturedProjects(){
     return(
         <div className="flex flex-col justify-center text-center gap-4 mb-8">
             <h1 className="text-6xl text-purple-700 mb-8">Featured Projects</h1>
-            <a href="https://github.com/SwissvaleScrapbook/SwissvaleScrapbook" target="_blank" rel="noopener noreferrer">
+            <a href="/#/projects/swissvalescrapbook">
                 <div className="md:w-full grid grid-cols-1 justify-between md:grid-cols-3 border-y-2 border-black hover:bg-purple-50 transition-colors">
                     <div className="flex flex-col md:col-span-2 md:justify-center text-center gap-4 md:order-1 order-2 md:my-0 my-16">
                         <h1 className="text-purple-700 text-4xl">Swissvale Scrapbook</h1>

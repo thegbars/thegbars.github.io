@@ -10,16 +10,19 @@ import Resume from '@/pages/Resume'
 import About from '@/pages/About'
 import Contact from '@/pages/Contact'
 
+import SwissvaleScrapbook from '@/pages/SwissvaleScrapbook'
+
 createRoot(document.getElementById('root')!).render(
     <div>
         <HashRouter>
             <GreysonNavbar />
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/resume" element={<Resume />} />
+                <Route path="" element={<Home />} />
+                <Route path="projects" element={<Projects />} />
+                <Route path="projects/swissvalescrapbook" element={<SwissvaleScrapbook />} />
+                <Route path="about" element={<About />} />
+                <Route path="contact" element={<Contact />} />
+                <Route path="resume" element={<Resume />} />
             </Routes>
         </HashRouter>
         <Footer />
