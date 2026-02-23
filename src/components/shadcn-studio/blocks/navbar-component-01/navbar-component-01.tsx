@@ -49,9 +49,11 @@ const Navbar = ({ navigationData }: { navigationData: NavigationItem }) => {
             <DropdownMenuContent className='w-56 bg-white' align='end'>
               <DropdownMenuGroup>
                 {navigationData.map((item, index) => (
-                  <DropdownMenuItem key={index}>
-                    <a href={item.href}>{item.title}</a>
-                  </DropdownMenuItem>
+                    <a href={item.href}>
+                      <DropdownMenuItem key={index}>
+                        {item.title}
+                      </DropdownMenuItem>
+                    </a>
                 ))}
               </DropdownMenuGroup>
             </DropdownMenuContent>
