@@ -7,7 +7,7 @@ export default function Resume() {
         <Gutters>
             <div className="my-16 flex flex-col gap-4 items-center justify-center">
                 <h1 className="text-6xl text-purple-700">Resume</h1>
-                <a target="_blank" rel="noopener noreferrer" href="src/assets/gbars-resume.pdf">
+                <a target="_blank" rel="noopener noreferrer" href="/gbars-resume.pdf">
                     <Button variant="purple" className="px-4 py-8">
                         <p className="text-xl">DOWNLOAD RESUME</p>
                     </Button>
