@@ -1,19 +1,17 @@
 import Gutters from "@/components/Gutters"
 import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/Button"
 
 export default function SwissvaleScrapbook() {
     return (
         <Gutters>
             <div className="my-8">
-                <h1 className="text-4xl text-purple-700 mb-6">Swissvale Scrapbook</h1>
-
-
-                {/*TODO: Imgs, technologies used, github link, ongoing work*/}
-                <h1 className="bg-amber-600">TODO implement Imgs, technologies used, github link, ongoing work!!!</h1>
-
-
+                <h1 className="text-4xl text-purple-700 mb-8">Swissvale Scrapbook</h1>
+                <a href="https://github.com/SwissvaleScrapbook/SwissvaleScrapbook" target="_blank" rel="noopener noreferrer">
+                    <Button variant="purple">View Project on GitHub</Button>
+                </a>
                 {/* The Problem */}
-                <div className="mb-8">
+                <div className="my-8">
                     <h2 className="text-2xl text-purple-700 mb-4">The Problem</h2>
                     <p className="mb-4">
                         Researchers interested in Swissvale, PA, have collected data on the community relating to the vacant lots scattered around the borough. The statistics are being stored within software for geographic information systems. How can that data be combined with oral stories to make the average person interested and transition the community into a state of revitalization? This is the question that I wanted to answer by designing Swissvale Scrapbook.
