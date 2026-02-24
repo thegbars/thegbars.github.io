@@ -3,6 +3,9 @@ import { Separator } from "@/components/ui/separator"
 import { Badge } from "@/components/ui/badge.tsx"
 import {Github} from "lucide-react";
 import { CircleDot } from 'lucide-react';
+import scrapdesign from '@/assets/scrap-design.png'
+import scrapmap from '@/assets/scrap-map.png'
+import scrapstory from '@/assets/scrap-story.png'
 
 
 export default function SwissvaleScrapbook() {
@@ -15,6 +18,12 @@ export default function SwissvaleScrapbook() {
                         <CircleDot />
                         <p>Development In Progress</p>
                     </Badge>
+                </div>
+                {/*Imgs*/}
+                <div className="flex justify-around flex-wrap mb-8">
+                    <img src={scrapdesign} alt="" className="h-100 w-100 object-contain"/>
+                    <img src={scrapmap} alt="" className="h-100 w-100 object-contain"/>
+                    <img src={scrapstory} alt="" className="h-100 w-100 object-contain"/>
                 </div>
                 <a href="https://github.com/SwissvaleScrapbook/SwissvaleScrapbook" target="_blank" rel="noopener noreferrer">
                     <div className="rounded-2xl border-2 border-purple-700 py-2 hover:bg-purple-50 transition-colors cursor-pointer flex gap-4 justify-center items-center">
