@@ -1,14 +1,26 @@
 import Gutters from "@/components/Gutters"
 import { Separator } from "@/components/ui/separator"
-import { Button } from "@/components/ui/Button"
+import { Badge } from "@/components/ui/badge.tsx"
+import {Github} from "lucide-react";
+import { CircleDot } from 'lucide-react';
+
 
 export default function SwissvaleScrapbook() {
     return (
         <Gutters>
             <div className="my-8">
-                <h1 className="text-4xl text-purple-700 mb-8">Swissvale Scrapbook</h1>
+                <div className="mb-8 flex gap-4">
+                    <h1 className="text-4xl text-purple-700 mb-1">Swissvale Scrapbook</h1>
+                    <Badge variant="purple">
+                        <CircleDot />
+                        <p>Development In Progress</p>
+                    </Badge>
+                </div>
                 <a href="https://github.com/SwissvaleScrapbook/SwissvaleScrapbook" target="_blank" rel="noopener noreferrer">
-                    <Button variant="purple">View Project on GitHub</Button>
+                    <div className="rounded-2xl border-2 border-purple-700 py-2 hover:bg-purple-50 transition-colors cursor-pointer flex gap-4 justify-center items-center">
+                        <Github className="h-[2em] w-[2em]" />
+                        <p className="text-xl">View Project on GitHub</p>
+                    </div>
                 </a>
                 {/* The Problem */}
                 <div className="my-8">
