@@ -20,10 +20,16 @@ export default function SwissvaleScrapbook() {
                     </Badge>
                 </div>
                 {/*Imgs*/}
-                <div className="flex justify-around flex-wrap mb-8">
-                    <img src={scrapdesign} alt="" className="h-100 w-100 object-contain"/>
-                    <img src={scrapmap} alt="" className="h-100 w-100 object-contain"/>
-                    <img src={scrapstory} alt="" className="h-100 w-100 object-contain"/>
+                <div className="flex justify-around flex-wrap mb-8 md:gap-0 gap-4">
+                    <img src={scrapdesign}
+                         alt="Hand-drawn wireframe sketch showing four mobile app screens with navigation flow, featuring screens labeled 'Friends', 'Story', and image galleries with plus buttons and navigation arrows"
+                         className="h-100 w-100 object-contain"/>
+                    <img src={scrapmap}
+                         alt="Mobile map interface showing Cathedral of Learning area with black church and book icons marking points of interest, and an orange player indicator on the map"
+                         className="h-100 w-100 object-contain"/>
+                    <img src={scrapstory}
+                         alt="Dark blue mobile app screen titled 'Braddock Church' with close button, featuring white cloud-shaped buttons labeled 'Friends' (large center), 'Family', 'After School', 'Landscape', 'Composting', 'Community', and 'Bob', with three historical photos at bottom"
+                         className="h-100 w-100 object-contain"/>
                 </div>
                 <a href="https://github.com/SwissvaleScrapbook/SwissvaleScrapbook" target="_blank" rel="noopener noreferrer">
                     <div className="rounded-2xl border-2 border-purple-700 py-2 hover:bg-purple-50 transition-colors cursor-pointer flex gap-4 justify-center items-center">

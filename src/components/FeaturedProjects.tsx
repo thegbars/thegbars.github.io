@@ -26,7 +26,10 @@ export default function FeaturedProjects(){
                         </div>
                     </div>
                     <div className="md:order-2 order-1 flex md:justify-end justify-center">
-                        <img className="md:h-full md:max-h-[30em] md:w-auto w-full h-auto object-contain md:rounded-l-xl md:shadow-xl max-md:rounded-b-xl" src={ScrapbookImg} alt="" />
+                        <img className="md:h-full md:max-h-[30em] md:w-auto w-full h-auto object-contain md:rounded-l-xl md:shadow-xl max-md:rounded-b-xl"
+                             src={ScrapbookImg}
+                             alt="Collage of multiple photographs showing various views of Swissvale, Pennsylvania including residential streets with historic houses, aerial neighborhood views, and tree-lined boulevards"
+                        />
                     </div>
                 </div>
             </a>
@@ -47,7 +50,10 @@ export default function FeaturedProjects(){
                         </div>
                     </div>
                     <div className="order-1 flex md:justify-start justify-center">
-                        <img className="md:h-full md:max-h-[30em] md:w-auto w-full h-auto object-contain md:rounded-r-xl md:shadow-xl max-md:rounded-b-xl" src={CSDemoImg} alt="" />
+                        <img className="md:h-full md:max-h-[30em] md:w-auto w-full h-auto object-contain md:rounded-r-xl md:shadow-xl max-md:rounded-b-xl"
+                             src={CSDemoImg}
+                             alt="Binary tree diagram with seven blue circular nodes numbered 1 through 7, connected by red lines showing parent-child relationships in a hierarchical structure"
+                        />
                     </div>
                 </div>
             </a>
@@ -67,7 +73,10 @@ export default function FeaturedProjects(){
                         </div>
                     </div>
                     <div className="md:order-2 order-1 flex md:justify-end justify-center">
-                        <img className="md:h-full md:max-h-[30em] md:w-auto w-full h-auto object-contain md:rounded-l-xl md:shadow-xl max-md:rounded-b-xl" src={RustRacerImg} alt="" />
+                        <img className="md:h-full md:max-h-[30em] md:w-auto w-full h-auto object-contain md:rounded-l-xl md:shadow-xl max-md:rounded-b-xl"
+                             src={RustRacerImg}
+                             alt="Top-down view of a bright green racing track with beige borders forming a winding circuit pattern on a dark background"
+                        />
                     </div>
                 </div>
             </a>

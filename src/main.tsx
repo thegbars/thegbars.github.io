@@ -4,6 +4,8 @@ import Home from '@/pages/Home.tsx'
 
 import {Routes, Route, HashRouter} from "react-router";
 import GreysonNavbar from '@/components/GreysonNavbar.tsx'
+import ScrollToTop from '@/components/ScrollToTop'
+
 import Footer from '@/components/Footer'
 import Projects from '@/pages/Projects'
 import Resume from '@/pages/Resume'
@@ -16,6 +18,7 @@ createRoot(document.getElementById('root')!).render(
     <div>
         <HashRouter>
             <GreysonNavbar />
+            <ScrollToTop />
             <Routes>
                 <Route path="" element={<Home />} />
                 <Route path="projects" element={<Projects />} />
