@@ -17,7 +17,7 @@ export default function Home() {
         <FeaturedProjects />
 
         <Link to="/projects">
-            <p className="bg-purple-700 hover:bg-purple-500 transition-colors text-white text-lg py-4 text-center">View All Projects</p>
+            <p className="bg-purple-700 hover:bg-purple-500 transition-colors text-white text-lg py-4 text-center rounded-xl mx-4">View All Projects</p>
         </Link>
 
     </div>
