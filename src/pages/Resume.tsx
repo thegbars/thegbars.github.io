@@ -13,6 +13,38 @@ export default function Resume() {
                     </Button>
                 </a>
             </div>
+            {/*Career Experience*/}
+            <div className="mb-8">
+                <h1 className="text-4xl text-purple-700 mb-4">Career Experience</h1>
+                <div className="mb-4">
+                    <h1 className="text-2xl text-purple-700">Student Web Developer</h1>
+                    <div className="md:flex md:justify-between mb-4">
+                        <p>Clinical and Translational Science Institute (CTSI)</p>
+                        <p>Spring 2023 ‑ Present</p>
+                    </div>
+                    <ul className="list-disc list-inside">
+                        <li>Developed web elements using Razor syntax to integrate with a Content Management System (CMS) for a
+                            dynamic editing experience</li>
+                        <li>Created a fully functioning website with a two-person team and supervision from full-time developers</li>
+                        <li>Migrated content from an outdated CMS to a new one, ensuring consistency and accuracy</li>
+                        <li>Conducted quality assurance by testing 100+ tickets of collaborators to provide a high‑quality website</li>
+                    </ul>
+                </div>
+                <div className="mb-8">
+                    <h1 className="text-2xl text-purple-700">Student Quality Assurance Analyst</h1>
+                    <div className="md:flex md:justify-between mb-4">
+                        <p>Clinical and Translational Science Institute (CTSI)</p>
+                        <p>Summer 2022 ‑ Spring 2023</p>
+                    </div>
+                    <ul className="list-disc list-inside">
+                        <li>Ensured a high-quality user experience on websites by conducting manual tests using industry-standard
+                            cross‑browser testing tools, such as BrowserStack</li>
+                        <li>Developed automatic test scripts using Selenium‑JS for use on 3 of CTSI’s websites</li>
+                        <li>Collaborated daily with the Quality Assurance and IT teams to ensure seamless integration of testing scripts</li>
+                    </ul>
+                </div>
+                <Separator className="bg-black mt-8" />
+            </div>
             {/*Education*/}
             <div className="mb-8">
                 <h1 className="text-4xl text-purple-700 mb-4">Education</h1>
@@ -46,40 +78,7 @@ export default function Resume() {
                 </p>
                 <Separator className="bg-black mt-8" />
             </div>
-
-            {/*Career Experience*/}
-            <div className="mb-8">
-                <h1 className="text-4xl text-purple-700 mb-4">Career Experience</h1>
-                <div className="mb-4">
-                    <h1 className="text-2xl text-purple-700">Student Web Developer</h1>
-                    <div className="md:flex md:justify-between mb-4">
-                        <p>Clinical and Translational Science Institute (CTSI)</p>
-                        <p>Spring 2023 ‑ Present</p>
-                    </div>
-                    <ul className="list-disc list-inside">
-                        <li>Developed web elements using Razor syntax to integrate with a Content Management System (CMS) for a
-                            dynamic editing experience</li>
-                        <li>Created a fully functioning website with a two-person team and supervision from full-time developers</li>
-                        <li>Migrated content from an outdated CMS to a new one, ensuring consistency and accuracy</li>
-                        <li>Conducted quality assurance by testing 100+ tickets of collaborators to provide a high‑quality website</li>
-                    </ul>
-                </div>
-                <div className="mb-8">
-                    <h1 className="text-2xl text-purple-700">Student Quality Assurance Analyst</h1>
-                    <div className="md:flex md:justify-between mb-4">
-                        <p>Clinical and Translational Science Institute (CTSI)</p>
-                        <p>Summer 2022 ‑ Spring 2023</p>
-                    </div>
-                    <ul className="list-disc list-inside">
-                        <li>Ensured a high-quality user experience on websites by conducting manual tests using industry-standard
-                            cross‑browser testing tools, such as BrowserStack</li>
-                        <li>Developed automatic test scripts using Selenium‑JS for use on 3 of CTSI’s websites</li>
-                        <li>Collaborated daily with the Quality Assurance and IT teams to ensure seamless integration of testing scripts</li>
-                    </ul>
-                </div>
-                <Separator className="bg-black mt-8" />
-            </div>
-
+            
             {/* Skills */}
             <div className="mb-8">
                 <h1 className="text-4xl text-purple-700 mb-4">Skills</h1>
