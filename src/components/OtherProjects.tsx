@@ -24,7 +24,7 @@ const projects = [
         title: "and Toad",
         description: "Video game demo",
         image: toadImg,
-        link: "#",
+        link: "https://github.com/thegbars/and-Toad",
         technologies: ["Unity", "TextMeshPro", "Git"]
     }
 ]

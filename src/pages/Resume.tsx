@@ -78,7 +78,7 @@ export default function Resume() {
                 </p>
                 <Separator className="bg-black mt-8" />
             </div>
-            
+
             {/* Skills */}
             <div className="mb-8">
                 <h1 className="text-4xl text-purple-700 mb-4">Skills</h1>
