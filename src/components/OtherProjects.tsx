@@ -8,24 +8,24 @@ import toadImg from "@/assets/andToad.png"
 const projects = [
     {
         title: "CTSI Website Migration",
-        description: "Health research website, moved content from an old version of the CMS, developed web elements",
+        description: "Health research website, moved content from an old version of the CMS, and developed web elements",
         image: ctsiImg,
         link: "https://ctsi.pitt.edu",
         technologies: ["Razor", "CSS", "Bootstrap", "HTML", "C#", "UmbracoCMS", "Javascript", "Jira", "Git", "Examine"]
     },
     {
         title: "ENACT Website",
-        description: "Health research website",
+        description: "Health research website, developed web elements, worked with designers to fulfil design requirements",
         image: enactImg,
         link: "https://enact-network.org/",
         technologies: ["Razor", "CSS", "Bootstrap", "HTML", "C#", "UmbracoCMS", "Javascript", "Jira", "Git", "Examine"]
     },
     {
         title: "and Toad",
-        description: "Video game demo",
+        description: "Video game demo, designed basic gameplay loop, developed code",
         image: toadImg,
         link: "https://github.com/thegbars/and-Toad",
-        technologies: ["Unity", "TextMeshPro", "Git"]
+        technologies: ["Unity", "C#", "TextMeshPro", "Git"]
     }
 ]
 

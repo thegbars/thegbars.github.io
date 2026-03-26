@@ -4,7 +4,7 @@ import OtherProjects from "@/components/OtherProjects.tsx"
 
 export default function Projects() {
     return (
-        <div className="mt-8">
+        <div className="mt-16">
             <FeaturedProjects />
             <div className="flex flex-col justify-center text-center gap-4 mb-40">
                 <Gutters>
