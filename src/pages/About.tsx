@@ -13,10 +13,13 @@ export default function About() {
                     <p className="text-xl">
                         I'm a full-stack developer and designer based out of Pittsburgh, PA.
                         I've spent the past four years pursuing my education at the University of Pittsburgh
-                        and developing my professional skills as a student developer at the Clinical and Translational Science Institute
+                        and developing my professional skills as a student developer at the Clinical and Translational Science Institute.
                     </p>
                     <p className="text-xl">
-                        In my off-time I enjoy playing video games, listening to music, hanging out with friends, and exploring the outdoors.
+                        I graduated in May of 2026 with a degree in both Computer Science and Digital Narrative & Interactive Design.
+                    </p>
+                    <p className="text-xl">
+                        In my off-time I enjoy playing video games, listening to music, and hanging out with friends.
                     </p>
                 </div>
             </div>
