@@ -40,22 +40,9 @@ export default function Contact() {
                     <h1 className="text-6xl text-purple-700 font-bold">
                         Lets work together!
                     </h1>
-                    <p className="text-2xl">
-                        Email me at{" "}
-                        <a
-                            className="text-purple-700 hover:underline"
-                            href="mailto:gbarsotti262@gmail.com"
-                        >
-                            gbarsotti262@gmail.com
-                        </a>
-                    </p>
 
                     {/* Contact Form */}
                     <div className="mt-12 text-left">
-                        <h2 className="text-purple-700 text-4xl text-center mb-8">
-                            Or send me a message:
-                        </h2>
-
                         {isSubmitSuccessful && (
                             <div className="mb-6 rounded-2xl border-2 border-green-500 bg-green-50 px-6 py-4 text-green-700 text-center font-medium">
                                 ✓ Message sent — I'll get back to you soon!
