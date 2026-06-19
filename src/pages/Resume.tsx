@@ -55,8 +55,7 @@ export default function Resume() {
 
                 <div className="mb-4">
                     <p>B.S. in Computer Science & Digital Narrative and Interactive Design</p>
-                    <p className="text-gray-700">August 2022 ‑ Present</p>
-                    <p className="text-gray-700">Expected Graduation: May 2026</p>
+                    <p className="text-gray-700">August 2022 ‑ May 2026</p>
                     <p className="text-gray-700">GPA: 3.4</p>
                 </div>
 
