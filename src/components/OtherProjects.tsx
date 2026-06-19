@@ -4,14 +4,15 @@ import { Badge } from "@/components/ui/badge"
 import ctsiImg from "@/assets/ctsi.png"
 import enactImg from "@/assets/enact.png"
 import toadImg from "@/assets/andToad.png"
+import portfolioImg from "@/assets/portfolio-screenshot.png"
 
 const projects = [
     {
-        title: "CTSI Website Migration",
+        title: "CTSI Website",
         description: "Health research website, moved content from an old version of the CMS, and developed web elements",
         image: ctsiImg,
         link: "https://ctsi.pitt.edu",
-        technologies: ["Razor", "CSS", "Bootstrap", "HTML", "C#", "UmbracoCMS", "Javascript", "Jira", "Git", "Examine"]
+        technologies: ["Razor", "CSS", "Bootstrap", "HTML", "C#", "UmbracoCMS", "Javascript", "Jira", "Git", "Examine", "Angular"]
     },
     {
         title: "ENACT Website",
@@ -26,6 +27,13 @@ const projects = [
         image: toadImg,
         link: "https://github.com/thegbars/and-Toad",
         technologies: ["Unity", "C#", "TextMeshPro", "Git"]
+    },
+    {
+        title: "Portfolio Website",
+        description: "The website you are currently browsing. Developed and designed, from scratch, by me.",
+        image: portfolioImg,
+        link: "https://github.com/thegbars/thegbars.github.io",
+        technologies: ["Vite", "React", "Git", "ShadCN UI", "Typescript", "GitHub Actions", "TailwindCSS"]
     }
 ]
 
